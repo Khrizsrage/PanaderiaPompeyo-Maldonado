@@ -1,0 +1,44 @@
+#galeria .col-lg-4 {
+    margin: 0px !important;
+    padding: 25px ;
+}
+
+#galeria img {
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+}
+
+
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
+.hyperlinks {
+    text-decoration: none;
+}
+
+@media (max-width:768px){
+.lightbox-gallery h2{
+    margin-bottom:25px;
+    padding-top:25px;
+    font-size:24px}
+}
+.lightbox-gallery .intro{
+    font-size:16px;
+    max-width:500px;
+    margin:0 auto 40px
+}
+
+.lightbox-gallery .intro p{
+    margin-bottom:0
+}
+
+.lightbox-gallery .photos{
+    padding-bottom:20px
+}
+
+
+.lightbox-gallery .item {
+    padding-bottom:30px
+}
